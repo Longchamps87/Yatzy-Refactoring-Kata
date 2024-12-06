@@ -7,6 +7,5 @@ public interface YatzyCalculator {
     /**
      * Calculate the score of a given dice for a given category
      */
-    // TODO convert dice to set ?
     int score(List<Integer> dice, String categoryName);
 }
